@@ -1,0 +1,191 @@
+ 1  mkdir gitDemo
+    2  ll
+    3  ls -l
+    4  mv gitDemo/
+    5  rm gitDemo/
+    6  sudo rm gitDemo/
+    7  apt-get install rm
+    8  sudo apt-get install rm
+    9  clear
+   10  ll
+   11  ls -l
+   12  sudo gitDemo/
+   13  sudo rm gitDemo/
+   14  clear
+   15  sudo rm -rf gitDemo/
+   16  ll
+   17  ls 0l
+   18  ls -l
+   19  clear
+   20  mkdir gitDemo
+   21  cd gitDemo/
+   22  pwd
+   23  git init
+   24  git config -l
+   25  pwd
+   26  ll
+   27  ls
+   28  ls -l
+   29  ls -al
+   30  clear
+   31  pwd 
+   32  ls -al
+   33  git config --global usern.name tashidenduprseb
+   34  git config --global usern.email tashi.dendup@rsebl.org.bt
+   35  git config -l
+   36  git branch
+   37  clear
+   38  vim firstfile
+   39  git add firstfile 
+   40  git status
+   41  git commit -m First File Commit 
+   42  git commit -m FirstFileCommit 
+   43  git remote add origin https://github.com/tashidenduprseb/gitDemo.git
+   44  git push -u origin master
+   45  git push -u origin master
+   46  ls
+   47  git status
+   48  clear
+   49  git remote add origin https://github.com/tashidenduprseb/gitDemo.git
+   50  git push -u origin master
+   51  git push -u origin master
+   52  git branch HotFix
+   53  git branch Integration
+   54  git branch
+   55  git status
+   56  clear
+   57  git log
+   58  git branch
+   59  git checkout --b Integration
+   60  git checkout -b Integration
+   61  clear
+   62  git checkout Integration
+   63  git branch
+   64  git branch Feature1
+   65  git branch Feature2
+   66  git branch
+   67  git branch --help
+   68  git branch -d Feature1
+   69  git branch -d Feature2
+   70  clear
+   71  git branch
+   72  git checkout master
+   73  git branch
+   74  clear
+   75  git checkout -b Feature1 Integration
+   76  git checkout -b Feature2 Integration
+   77  git branch
+   78  git checkout Feature2
+   79  clear
+   80  git branch
+   81  touch feature2Firstfile
+   82  vi feature2Firstfile 
+   83  git status
+   84  git add feature2Firstfile 
+   85  git commit -m feature2Firstfile 
+   86  git status
+   87  ll
+   88  ls -l
+   89  git branch
+   90  clear
+   91  git checkout Integration
+   92  git branch
+   93  git git log
+   94  git checkout Feature2
+   95  git branch
+   96  ls -al
+   97  ls 
+   98  clear
+   99  git checkout Integration
+  100  git branch
+  101  git merge Feature2
+  102  ll
+  103  ls l
+  104  ls -l
+  105  clear
+  106  git branch
+  107  git checkout Feature2
+  108  git checkout Feature1
+  109  git branch
+  110  ls
+  111  cat firstfile 
+  112  git checkout Feature2
+  113  ls
+  114  cat feature2Firstfile 
+  115  git checkout Feature1
+  116  clear
+  117  git branch
+  118  vim feature1Firstfile
+  119  ls
+  120  git add .
+  121  git commit -m feature1Firstfile 
+  122  vim feature1SecondFile
+  123  git add feature1SecondFile 
+  124  git commit -m feature1SecondFile 
+  125  git status
+  126  ls
+  127  clear
+  128  ls -al
+  129  git rebase Integration
+  130  ls -al
+  131  clear
+  132  git checkout Integration
+  133  git merge Feature1
+  134  ls
+  135  clear
+  136  git branch
+  137  git checkout HotFix
+  138  git merge Integration
+  139  ls
+  140  clear
+  141  git branch
+  142  git checkout master
+  143  git branch
+  144  git merge HotFix
+  145  clear
+  146  git push origin master
+  147  clear
+  148  git checkout Feature1
+  149  vim feature1ThirdFile
+  150  git status
+  151  git add feature1ThirdFile 
+  152  git status
+  153  git commit -m feature1ThirdFile 
+  154  clear
+  155  git checkout Integration
+  156  git branch
+  157  git merge Feature1
+  158  ls
+  159  clear
+  160  git checkout HotFix
+  161  git merge Integration
+  162  ll
+  163  ls
+  164  clear
+  165  git checkout master
+  166  git merge HotFix
+  167  ll
+  168  ls
+  169  clear
+  170  git push -u origin master
+  171  clear
+  172  git checkout HotFix
+  173  git branch
+  174  vim hotFixFile
+  175  git status
+  176  git add hotFixFile 
+  177  git commit -m hotFixFile 
+  178  clear
+  179  git checkout Integration
+  180  git merge HotFix
+  181  git checkout master
+  182  git merge HotFix
+  183  pwd
+  184  ls 
+  185  clear
+  186  ll
+  187  ls
+  188  git push -u origin master
+  189  clear
+  190  history
+labsuser@ubuntu1804:~/gitDemo$ 
